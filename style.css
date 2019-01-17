@@ -1,0 +1,11 @@
+.navbar-brand small {
+  display: block;
+  font-size: 10px;
+  white-space: normal;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand small {
+    display: none;
+  }
+}
