@@ -55,6 +55,20 @@ nav {
 	overflow: hidden;
 }
 
+.footer-col-right {
+	width: 33%;
+	float: right;
+	overflow: hidden;
+	text-align: right;
+}
+
+.footer-col-center {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+
 footer {
 	/*border-top: 1px solid #b7b7b8;*/
 	background-color: #d7b160;
@@ -63,14 +77,20 @@ footer {
 	height: 6em;
 }
 
+.smallicons {
+	height: 2em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
 /*index*/
 .jumbotron-fluid {
 	height: 45em;
 	margin: 0;
 }
 
-.jumbotron {
-	background-image: url('');
+#index-banner {
+	background-image: url('../images/banner.jpg');
 	background-size: cover;
  	background-repeat: no-repeat;
 }
@@ -89,12 +109,11 @@ footer {
   	justify-content: space-between;
 }
 
-.card {
-	display: inline-block;
-	width: 30%;
+.card-publication-home {
 	margin: auto;
 	padding: 1em;
-	height: 45em;
+	height: 38em;
+	border: 0px;
 }
 
 .card-img-top {
@@ -105,4 +124,36 @@ footer {
 .readmore {
 	position: absolute;
 	bottom: 1em;
+}
+/*about page*/
+#about-banner {
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+
+/*contact page*/
+#message {
+	height: 13em;
+}
+
+/*publications*/
+.book {
+	margin: auto;
+	border: 0px;
+	height: 25em;
+	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-color: white;
+}
+
+#modalbook-1 {
+	background-image: url('../images/book-1.jpg');
+	
+}
+
+#modalbook-2 {
+	background-image: url('../images/book-2.jpg');
+	
 }
