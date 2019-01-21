@@ -1,0 +1,108 @@
+/*all pages*/
+nav {
+	border-bottom: 1px solid  #b7b7b8;
+}
+
+#logo {
+	width: 60px;
+	float: left;
+}
+
+#navbar-header {
+	line-height: 1em;
+	padding-left: 0.5em;
+	float: left;
+}
+
+.nav-item {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.gold-btn {
+	background-color: #d7b160;
+	border: none;
+	color: white;
+	border-radius: 0.5em;
+}
+
+.gold-btn:hover {
+	background-color: #b7b7b8;
+	border: none;
+	color: white;
+}
+
+.gold-btn:link {
+	color: white;
+}
+
+.silver-btn {
+	background-color: #b7b7b8;
+	border: none;
+	color: white;
+	border-radius: 0.5em;
+}
+
+.silver-btn:hover {
+	background-color: #d7b160;
+	border: none;
+	color: white;
+}
+
+.footer-col {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+}
+
+footer {
+	/*border-top: 1px solid #b7b7b8;*/
+	background-color: #d7b160;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	height: 6em;
+}
+
+/*index*/
+.jumbotron-fluid {
+	height: 45em;
+	margin: 0;
+}
+
+.jumbotron {
+	background-image: url('');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+
+#index-banner-header {
+	padding-top: 20em;
+	line-height: 6em;
+}
+/*home*/
+.carousel {
+	height: auto;
+}
+
+#publications {
+	display: flex;
+  	justify-content: space-between;
+}
+
+.card {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	padding: 1em;
+	height: 45em;
+}
+
+.card-img-top {
+	height: 20em;
+	object-fit: contain;
+}
+
+.readmore {
+	position: absolute;
+	bottom: 1em;
+}
