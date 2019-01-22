@@ -131,7 +131,6 @@ footer {
 	background-image: url('../images/about-banner.jpg');
 	background-size: cover;
  	background-repeat: no-repeat;
- 	background-position: -300px 0px;
 }
 
 /*contact page*/
@@ -192,6 +191,9 @@ iframe {
 	iframe {
 		height: 40em;
 	}
+	#about-banner {
+ 	background-position: -300px 0px;
+ 	}
 }
 
 /*phone size*/
@@ -259,4 +261,8 @@ iframe {
 	iframe {
 		height: 20em;
 	}
+
+	#about-banner {
+ 	background-position: -250px 0px;
+ 	}
 }
