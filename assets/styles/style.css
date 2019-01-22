@@ -72,9 +72,9 @@ nav {
 footer {
 	/*border-top: 1px solid #b7b7b8;*/
 	background-color: #d7b160;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	height: 6em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	overflow: hidden;
 }
 
 .smallicons {
@@ -90,13 +90,14 @@ footer {
 }
 
 #index-banner {
-	background-image: url('../images/banner.jpg');
+	background-image: url('../images/banner.png');
+	background-size: 100% auto;
 	background-size: cover;
  	background-repeat: no-repeat;
 }
 
 #index-banner-header {
-	padding-top: 20em;
+	padding-top: 25em;
 	line-height: 6em;
 }
 /*home*/
@@ -112,7 +113,7 @@ footer {
 .card-publication-home {
 	margin: auto;
 	padding: 1em;
-	height: 38em;
+	height: 40em;
 	border: 0px;
 }
 
@@ -127,9 +128,10 @@ footer {
 }
 /*about page*/
 #about-banner {
-	background-image: url('../images/banner.jpg');
+	background-image: url('../images/about-banner.jpg');
 	background-size: cover;
  	background-repeat: no-repeat;
+ 	background-position: -300px 0px;
 }
 
 /*contact page*/
@@ -137,9 +139,14 @@ footer {
 	height: 13em;
 }
 
+iframe {
+	height: 100%;
+}
+
 /*publications*/
 .book {
 	margin: auto;
+	margin-top: 1em;
 	border: 0px;
 	height: 25em;
 	background-size: contain;
@@ -156,4 +163,100 @@ footer {
 #modalbook-2 {
 	background-image: url('../images/book-2.jpg');
 	
+}
+
+#modalbook-3 {
+	background-image: url('../images/book-3.jpg');
+	
+}
+
+#modalbook-4 {
+	background-image: url('../images/book-4.jpg');
+	
+}
+
+#modalbook-5 {
+	background-image: url('../images/book-5.jpg');
+	
+}
+
+#modalbook-6 {
+	background-image: url('../images/book-6.jpg');
+	
+}
+
+/*end of all styling*/
+
+/*tablet size*/
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+	iframe {
+		height: 40em;
+	}
+}
+
+/*phone size*/
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 2em;
+	}
+	p {
+		font-size: 0.65em;
+	}
+	.jumbotron-fluid {
+	height: 25em;
+	margin: 0;
+	}
+	#index-banner {
+	background-size: cover;
+	}
+	#index-banner-header {
+	padding-top: 15em;
+	line-height: 1em;
+	}
+	.indexh1 {
+		font-size: 1.2em;
+	}
+	#learnmorebutton {
+		font-size: 0.75em;
+	}
+	.footer-col {
+		display: block;
+		text-align: left;
+		width: 100%;
+		position: relative;
+		top: 5.25em;
+	}
+	.footer-col-center {
+		display: block;
+		text-align: left;
+		width: 100%;
+		position: relative;
+		top: -6.25em;
+	}
+	.footer-col-right {
+		display: block;
+		text-align: left;
+		width: 100%;
+		position: relative;
+		top: 0.5em;
+	}
+
+	.footer {
+		height: 1000px;
+		overflow: visible;
+	}
+
+	.card-publication-home {
+		height: 35em;
+	}
+
+	.readmore {
+		font-size: 0.75em;
+		position: absolute;
+		bottom: 2em;
+	}
+
+	iframe {
+		height: 20em;
+	}
 }
